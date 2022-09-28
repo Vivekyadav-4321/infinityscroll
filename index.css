@@ -1,0 +1,492 @@
+@import url('https://fonts.googleapis.com/css2?family=Hind+Vadodara:wght@500&family=Hubballi&family=Montserrat:wght@200&family=Quicksand:wght@300&family=Sacramento&family=Waterfall&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@200;300;400&display=swap');
+
+.card{
+    height: auto;
+    border-radius: 14px;
+    margin-top: 13px;
+    width: 70%;
+    margin: auto;
+    margin-top: 6px;
+    margin-bottom: 13px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;}
+
+
+
+
+
+
+.authorimage{
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+    border-radius: 50%;
+    overflow: hidden;
+    object-fit: cover;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+}
+
+.authorimage:hover{
+
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+
+}
+
+.authorimage img{
+    width: 100%;
+    height: 100%;
+    
+}
+
+.authornameandknowmore{
+    margin: auto;
+    padding-left: 18px;
+    font-size: 16px;
+}
+.headermain{
+    margin: auto;
+    display: flex;
+    padding-left: 15px;
+    margin-top: 8px;
+    line-height: 1em;
+    margin-bottom: 8px;
+    color: rgb(73, 73, 73);
+    position: relative;
+
+}
+
+.header{
+    padding: 0%;
+    display: flex;
+    height: 100%;
+    width: auto;
+    padding: 5px;
+    font-family: 'Jost', sans-serif;
+font-weight: 900;
+}
+
+
+
+.maincontent{
+    position: relative;
+    text-align: center;
+    overflow: hidden;
+    
+}
+
+.maincontent img{
+  filter: brightness(20%)  saturate(200%);
+height: 500px;
+width: 500;
+}
+
+
+.quote{
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    font-size: 25px;
+    font-weight: 600;
+    color: white;
+    width: fit-content;
+    transform: translate(-50%,-50%);
+    font-family: 'Quicksand', sans-serif;
+    padding: 15px;
+}
+
+.personinfo{
+    font-family: 'Jost', sans-serif;
+    text-align: center;
+    padding: 14px;
+    line-height: 1.2em;
+    font-size: 16px;
+}
+.headerauthorname{
+    background: rgb(0, 215, 255);
+    background: linear-gradient(315deg, rgba(0, 215, 255, 1) 0%, rgba(235, 0, 255, 1) 100%);
+    background-clip: border-box;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.tools{
+padding: 14px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.fa-bullhorn {
+    font-size: 16px;
+    margin: 4px;
+    color: gray;
+  }
+
+
+  
+  .facbookicon {
+    font-size: 17px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 13px;
+    padding-right: 13px;
+    margin: 2px;
+    background-color: #0099ff;
+    border: none;
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+    border-radius: 50%;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+
+  }
+
+  .whatsappicon:hover {
+    background-color: white;
+    color: #08ff63;
+  }
+
+  .facbookicon:hover {
+    background-color: white;
+    color: #0099ff;
+  }
+
+  .twittericon:hover {
+    background-color: white;
+    color: #1DA1F2;
+  }
+
+
+  .snapchaticon:hover {
+    background-color: white;
+    color: #ffd904;
+    -webkit-text-stroke: 1px black;
+    text-shadow: #9DBFAF;
+
+  }
+
+  .linkedinicon:hover {
+    background-color: white;
+    color: #0e76a8;
+
+  }
+
+  .linkedicon:hover {
+    background-color: white;
+    color: #0e76a8;
+  }
+
+  .redditicon:hover {
+    background-color: white;
+    color: #FF5700;
+  }
+
+  .twittericon {
+    font-size: 15px;
+    padding: 11px;
+    background-color: #1DA1F2;
+    border: none;
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+    margin: 2px;
+    border-radius: 50%;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  }
+
+  .snapchaticon {
+    font-size: 20px;
+    padding: 10px;
+    padding-left: 11px;
+    padding-right: 11px;
+    background-color: #FFFC00;
+    border: none;
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+    margin: 2px;
+    border-radius: 50%;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  }
+
+  .whatsappicon {
+    font-size: 15px;
+    padding: 11px;
+    background-color: #25D366;
+    border: none;
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+    margin: 2px;
+    border-radius: 50%;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  }
+
+  .linkedinicon {
+    font-size: 15px;
+    padding: 11px;
+    background-color: #0e76a8;
+    border: none;
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+    margin: 2px;
+    padding-left: 13px;
+    padding-right: 13px;
+    border-radius: 50%;
+    margin-right: 6px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  }
+
+  .redditicon {
+    font-size: 15px;
+    padding: 11px;
+    background-color: #FF5700;
+    border: none;
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+    margin: 2px;
+    border-radius: 50%;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  }
+
+  .linkedicon {
+    font-size: 15px;
+    padding: 11px;
+    background-color: rgb(245, 245, 245);
+    border: none;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    cursor: pointer;
+    margin: 2px;
+    border-radius: 50%;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  }
+
+
+
+
+
+
+
+    a{
+      color: rgb(0, 132, 255);;
+      text-decoration: none;
+    }
+
+
+
+    .titlesmallheaing {
+      font-weight: 13px;
+      font-family: 'Jost', sans-serif;
+      
+    }
+
+    .sitetitle {
+    
+
+
+      background: #00ff88;
+      background: linear-gradient(315deg, rgba(0,255,136,1) 0%, rgba(0,198,255,1) 100%);
+
+
+
+      font-family: 'Montserrat', sans-serif;
+      background-size: 300%;
+      width: 300px;
+      font-size: 40px;
+      text-transform: uppercase;
+      background-clip: border-box;
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      animation: animated_text 10s ease-in-out infinite;
+      -moz-animation: animated_text 10s ease-in-out infinite;
+      -webkit-animation: animated_text 10s ease-in-out infinite;
+    }
+
+    @keyframes animated_text {
+      0% {
+        background-position: 0px 50%;
+      }
+
+      50% {
+        background-position: 100% 50%;
+      }
+
+      100% {
+        background-position: 0px 50%;
+      }
+
+    }
+
+
+
+    ::placeholder {
+      color: gray;
+      padding-left: 12px;
+    }
+
+    body {
+      background-color: white;
+    }
+
+    hr {
+      width: 5%;
+      height: 1px;
+      border: none;
+      background: rgb(255, 98, 0);
+      background: linear-gradient(151deg, rgba(255, 98, 0, 1) 0%, rgba(255, 171, 0, 1) 48%, rgba(255, 0, 0, 1) 100%);
+
+    }
+
+    .maincontent{
+      height: 400px;
+      object-fit: cover;
+    }
+
+
+
+    
+  @media only screen and (max-width: 600px) {
+    .card{
+        width: 100%;
+        margin-bottom: 5px;
+        margin-top: 2px;
+    }
+    
+    
+
+.header{
+  text-align: left;
+  padding-bottom: 0%;
+}
+
+
+    .authorimage{
+        height: 50px;
+        width: 50px;
+        display: inline;
+        margin: auto;
+    }
+    .authornameandknowmore{
+        font-size: 12px;
+    }
+    
+
+.copied{
+  background-color: #0099ff;
+}
+
+
+    .quote{
+        position: absolute;
+        top: 45%;
+        left: 50%;
+        font-size: 18px;
+        font-weight: 600;
+        color: white;
+        width: fit-content;
+        transform: translate(-50%,-50%);
+        font-family: 'Quicksand', sans-serif;
+        padding: 15px;
+    }
+    
+    .personinfo{
+        font-size: 13px;
+    }
+    
+    hr{
+    width: 30%;
+      padding: 0%;
+      margin-bottom: 0%;
+      margin-top: 0%;
+    }
+    
+    .maincontent img {
+      width: 620px;
+      object-fit: cover;
+    }
+    
+.maincontent{
+  height: 250px;
+  object-fit: cover;
+}
+
+
+.sitetitle{
+  font-size: 25px;
+}
+
+
+.sitelogo{
+
+  width: 50px;
+  height: 50px;
+}
+
+
+
+.topheadingspace{
+height: 4px;
+margin-bottom: 18px;
+}
+
+
+.innertitle{
+  font-size: 9px;
+  font-weight: 100;
+}
+
+}
+
+.innertitle{
+  font-size: 12px;
+}
+
+
+  .mainquotebutton{
+
+    font-size: 3px;
+    padding: 8px;
+    background-color: transparent;
+    color: white;
+    margin-top: 20px;
+    opacity: 0.5;
+    border: 1px solid rgb(85, 85, 85);
+    border-radius: 100%;
+  }
+
+
+  .mainquotebutton:hover{
+    opacity: 1;
+  }
+
+  .maincontent{
+
+    object-fit: cover;
+  }
+
+  .maincontent img{
+
+object-fit: cover;
+  }
+
+
+  .quote{
+    object-fit: scale-down;
+  }
+
+
+
+
+
+
